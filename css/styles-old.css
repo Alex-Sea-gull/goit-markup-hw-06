@@ -200,15 +200,11 @@
   fill: #f4f4fd;
 }
 
-.soc-icon-link:hover {
-  background-color: #404bbf;
-}
-
+.soc-icon-link:hover,
 .soc-icon-link:focus {
   background-color: #404bbf;
 }
 
-.icon-icon {}
 
 /*------------------------------*/
 /*---------Our portfolio--------*/
