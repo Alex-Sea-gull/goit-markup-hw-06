@@ -386,6 +386,8 @@ img {
     }
 
     .team {
+        max-width: 1440px;
+        margin: 0 auto;
         padding: 120px 0;
     }
 
@@ -534,5 +536,246 @@ img {
         padding: 40px 32px;
         transform: translateY(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+/*-------------------------------------------------*/
+/*--------------------Footer-----------------------*/
+/*-------------------------------------------------*/
+.footer {
+    background-color: #2e2f42;
+    padding: 96px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    align-items: center;
+}
+
+.footer-logo {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-left: 86px;
+    margin-bottom: 16px;
+}
+
+.footer-accent {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    width: 264px;
+}
+
+.icon-footer-wrap {
+    max-width: 208px;
+}
+
+.title-icon-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.soc-icon-footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.soc-icon-footer-item {
+    width: 40px;
+    height: 40px;
+}
+
+.soc-icon-footer-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
+}
+
+/*-------------------------------------------------*/
+/*-------------------Button-footer-----------------*/
+/*-------------------------------------------------*/
+.subscribe-container {
+    max-width: 288px;
+}
+
+.subscribe-title {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.user-email {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer-input {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.footer-input::placeholder {
+    color: #fff;
+}
+
+.button-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.footer-icon {
+    margin-left: 16px;
+}
+
+.soc-icon-footer-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #f4f4fd;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        align-items: start;
+    }
+
+    .footer-logo {
+        margin-left: 0;
+    }
+
+    .logo-wrap {
+        margin-left: 108px;
+    }
+
+    .title-icon-footer {
+        text-align: left;
+    }
+
+    .subscribe-container {
+        max-width: 453px;
+        margin-left: 108px;
+    }
+
+    .subscribe-title {
+        text-align: left;
+    }
+
+    .user-email {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 0;
+        align-items: start;
+    }
+
+    .footer-logo {
+        margin-left: 0;
+    }
+
+    .logo-wrap {
+        margin-left: 0;
+        margin-right: 120px;
+    }
+
+    .icon-footer-wrap {
+        margin-right: auto;
+    }
+
+    .title-icon-footer {
+        text-align: left;
+    }
+
+    .soc-icon-footer-link:hover,
+    .soc-icon-footer-link:focus {
+        background-color: #31d0aa;
+    }
+
+    .subscribe-container {
+        max-width: 453px;
+    }
+
+    .subscribe-title {
+        text-align: left;
+    }
+
+    .user-email {
+        flex-direction: row;
+        gap: 24px;
     }
 }
