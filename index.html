@@ -21,7 +21,7 @@
   </head>
 
   <body>
-    <!-- Header -->
+    <!------------------------- Header ------------------------>
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -62,10 +62,79 @@
           </svg>
         </button>
       </div>
+      <!---------------------Mob-menu--------------->
+      <div class="mob-menu-top">
+        <div>
+          <button type="button" class="close-menu-btn">
+            <svg class="mob-modal-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mob-header-nav">
+            <ul class="mob-header-menu-list">
+              <li class="mob-header-menu-item">
+                <a class="mob-header-menu-link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-header-menu-item">
+                <a class="mob-header-menu-link" href="">Portfolio</a>
+              </li>
+              <li class="mob-header-menu-item">
+                <a class="mob-header-menu-link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="mob-header-contacts-list">
+            <li>
+              <a class="mob-header-contacts-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
+            </li>
+            <li>
+              <a
+                class="mob-header-contacts-link"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="mob-soc-icon-list">
+            <li class="soc-icon-item">
+              <a href="" class="soc-icon-link">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-icon-item">
+              <a href="" class="soc-icon-link">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-icon-item">
+              <a href="" class="soc-icon-link">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="soc-icon-item">
+              <a href="" class="soc-icon-link">
+                <svg class="icon-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
-      <!--Service-button-->
+      <!----------------Service-button------------------------>
       <section class="service">
         <div class="container button-container">
           <h1 class="service-title">Effective Solutions for Your Business</h1>
@@ -73,7 +142,7 @@
         </div>
       </section>
 
-      <!--Advantages-->
+      <!-------------------Advantages------------------------->
       <section class="advantages">
         <div class="container advantages-container">
           <h2 class="title-advantages">Our advantages</h2>
@@ -739,9 +808,13 @@
             <label for="user-privacy" class="check-text"
               ><span class="span-checkbox">
                 <svg class="modal-checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-Vector"></use></svg></span>
-                  <span>I accept the terms and conditions of the
-              <a href="#" class="link-policy">Privacy Policy</a></span>
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              <span
+                >I accept the terms and conditions of the
+                <a href="#" class="link-policy">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button class="send-button" type="submit">Send</button>
